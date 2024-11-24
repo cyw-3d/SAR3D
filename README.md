@@ -10,7 +10,7 @@
 ### SAR3D is a framework for **fast 3D generation (<1s)** and **detailed understanding** via **autoregressive modeling**.
 
 
-<video src="./assets/teaser.mp4" controls="controls" style="max-width: 100%;"></video>
-
+<!-- <video src="./assets/teaser.mp4" controls="controls" style="max-width: 100%;"></video> -->
+https://github.com/cyw-3d/SAR3D/blob/main/assets/teaser.mp4
 
 <p align="center">🚀✨🚧 We are working hard on releasing the code... 🔧🛠️💻 Stay tuned! 🚧✨🚀</p>

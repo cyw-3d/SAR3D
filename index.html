@@ -1,0 +1,313 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <meta charset="utf-8">
+  <meta name="description"
+        content="Deformable Neural Radiance Fields creates free-viewpoint portraits (nerfies) from casually captured videos.">
+  <meta name="keywords" content="Nerfies, D-NeRF, NeRF">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title></title>
+
+  <!-- Global site tag (gtag.js) - Google Analytics -->
+  <script async src="https://www.googletagmanager.com/gtag/js?id=G-PYVRSFMDRL"></script>
+  <script>
+    window.dataLayer = window.dataLayer || [];
+
+    function gtag() {
+      dataLayer.push(arguments);
+    }
+
+    gtag('js', new Date());
+
+    gtag('config', 'G-PYVRSFMDRL');
+  </script>
+  
+  <link href="https://fonts.googleapis.com/css?family=Google+Sans|Noto+Sans|Castoro"
+        rel="stylesheet">
+
+  <link rel="stylesheet" href="./static/css/bulma.min.css">
+  <link rel="stylesheet" href="./static/css/bulma-carousel.min.css">
+  <link rel="stylesheet" href="./static/css/bulma-slider.min.css">
+  <link rel="stylesheet" href="./static/css/fontawesome.all.min.css">
+  <link rel="stylesheet"
+        href="https://cdn.jsdelivr.net/gh/jpswalsh/academicons@1/css/academicons.min.css">
+  <link rel="stylesheet" href="./static/css/index.css">
+  <link rel="stylesheet" href="./static/css/result.css">
+  <link rel="icon" href="./static/images/favicon.svg">
+
+
+  <script defer src="./static/js/fontawesome.all.min.js"></script>
+  <script src="./static/js/bulma-carousel.min.js"></script>
+  <script src="./static/js/bulma-slider.min.js"></script>
+  <script src="./static/js/index.js"></script>
+
+</head>
+<body>
+
+  <!-- <nav class="navbar" role="navigation" aria-label="main navigation">
+    <div class="navbar-brand">
+      <a role="button" class="navbar-burger" aria-label="menu" aria-expanded="false">
+        <span aria-hidden="true"></span>
+        <span aria-hidden="true"></span>
+        <span aria-hidden="true"></span>
+      </a>
+    </div>
+        </div>
+      </div>
+  
+    </div>
+  </nav> -->
+
+
+<section class="hero">
+  <div class="hero-body">
+    <div class="container is-max-desktop">
+      <div class="columns is-centered">
+        <div class="column has-text-centered">
+          <h1 class="title is-1 publication-title">SAR3D: Autoregressive 3D Object Generation and Understanding via
+            Multi-scale 3D VQVAE</h1>
+          <div class="is-size-5 publication-authors">
+              <a href="https://cyw-3d.github.io/">Yongwei Chen</a><sup>1</sup>,
+            <span class="author-block">
+              <a href="https://nirvanalan.github.io/">Yushi Lan</a><sup>1</sup>,
+            </span>
+            <span class="author-block">
+              <a href="https://shangchenzhou.com/">Shangchen Zhou</a><sup>1</sup>,
+            </span>
+            <span class="author-block">
+              <a href="https://tengfei-wang.github.io/">Tengfei Wang</a><sup>2</sup>,
+            </span>
+            <span class="author-block">
+              <a href="https://xingangpan.github.io/">Xingang Pan</a><sup>1</sup>
+            </span>
+          </div>
+
+          <div class="is-size-5 publication-authors">
+            <span class="author-block">
+              <sup>1</sup>S-lab, Nanyang Technological University
+            </span>
+          </div>
+          <div class="is-size-5 publication-authors">
+            <span class="author-block">
+              <sup>2</sup>Shanghai Artificial Intelligence Laboratory
+            </span>
+          </div>
+
+
+          <div class="column has-text-centered">
+            <div class="publication-links">
+              <span class="link-block">
+                <a href=""
+                   class="external-link button is-normal is-rounded is-dark">
+                  <span class="icon">
+                      <i class="fas fa-file-pdf"></i>
+                  </span>
+                  <span>Paper</span>
+                </a>
+              </span>
+              <span class="link-block">
+                <a href=""
+                   class="external-link button is-normal is-rounded is-dark">
+                  <span class="icon">
+                      <i class="ai ai-arxiv"></i>
+                  </span>
+                  <span>ArXiv</span>
+                </a>
+              </span>
+              <!-- PDF Link. -->
+              <span class="link-block">
+                <a href=""
+                   class="external-link button is-normal is-rounded is-dark">
+                  <span class="icon">
+                      <i class="fas fa-file-pdf"></i>
+                  </span>
+                  <span>Supp_material</span>
+                </a>
+              </span>
+              <!-- Code Link. -->
+              <span class="link-block">
+                <a href=""
+                   class="external-link button is-normal is-rounded is-dark">
+                  <span class="icon">
+                      <i class="fab fa-github"></i>
+                  </span>
+                  <span>Code</span>
+                  </a>
+              </span>
+            </div>
+
+          </div>
+
+        </div>
+      </div>
+    </div>
+  </div>
+  <div class="columns is-centered has-text-centered">
+    <div class="container is-max-desktop">
+      <h1 class="is-size-4 publication-authors">
+        SAR3D is a framework for <strong>fast 3D generation (<1s)</strong>   and <br> <strong>detailed understanding</strong>
+        via <strong>autoregressive</strong> modeling.
+      </h1>
+      <div class="item item-blueshirt">
+        <video 
+          poster="" 
+          id="blueshirt" 
+          autoplay 
+          controls 
+          muted 
+          loop 
+          playsinline 
+          width="600" height="200">
+          <source src="./static/video/teaser.mov" type="video/mp4">
+        </video>
+      </div>
+    </div>
+  </div>
+</section>
+
+
+<section class="section">
+  <div class="container is-max-desktop">
+    <!-- Abstract. -->
+    <div class="columns is-centered has-text-centered">
+      <div class="column is-four-fifths">
+      </div>
+    </div>
+    <!--/ Abstract. -->
+
+    <hr>
+
+    <!-- Paper video. -->
+    <div class="columns is-centered has-text-centered">
+      <div class="column is-four-fifths">
+        <h2 class="title is-3">Video</h2>
+        <div class="publication-video">
+          <iframe src="https://www.youtube.com/embed/70CV2o7c4Fs"
+                  frameborder="0" 
+                  allow="autoplay; encrypted-media" 
+                  allowfullscreen>
+          </iframe>
+        </div>
+      </div>
+    </div>
+    <hr>
+    
+
+
+    <div class="columns is-centered has-text-centered">
+      <div class="column is-full-width">
+        <h2 class="title is-3">Single Image to 3D</h2>
+      </h1>
+      <div class="item item-blueshirt">
+        <video 
+          poster="" 
+          id="blueshirt" 
+          autoplay 
+          controls 
+          muted 
+          loop 
+          playsinline 
+          width="800" height="200">
+          <source src="./static/video/image-condition.mp4" type="video/mp4">
+        </video>
+      </div>
+      </div>
+    </div>
+
+    <hr>
+
+    <div class="columns is-centered has-text-centered">
+      <div class="column is-full-width">
+        <h2 class="title is-3">Text to 3D</h2>
+      </h1>
+      <div class="item item-blueshirt">
+        <video 
+          poster="" 
+          id="blueshirt" 
+          autoplay 
+          controls 
+          muted 
+          loop 
+          playsinline 
+          width="800" height="200">
+          <source src="./static/video/text-condition.mp4" type="video/mp4">
+        </video>
+      </div>
+      </div>
+    </div>
+    
+    <hr>
+
+    <div class="columns is-centered has-text-centered">
+      <div class="column is-full-width">
+        <h2 class="title is-3">3D Captioning</h2>
+        <div class="item item-blueshirt">
+          <img 
+            src="./static/images/3d-caption.png" 
+            alt="3D Captioning Image" 
+            width="1200" 
+            height="200" />
+        </div>
+      </div>
+    </div>
+    
+
+    <hr>
+
+    <div class="columns is-centered has-text-centered">
+      <div class="column is-full-width">
+        <h2 class="title is-3">Simultaneous 3D Generation and Understanding</h2>
+      </h1>
+      <div class="item item-blueshirt">
+        <video 
+          poster="" 
+          id="blueshirt" 
+          autoplay 
+          controls 
+          muted 
+          loop 
+          playsinline 
+          width="800" height="200">
+          <source src="./static/video/simultaneous.mp4" type="video/mp4">
+        </video>
+      </div>
+      </div>
+    </div>
+
+  </div>   
+</section>  
+
+
+
+
+<div class="my-hr">
+  <hr>
+</div>
+
+<section class="section" id="BibTeX">
+  <div class="container is-max-desktop content">
+    <h2 class="title">BibTeX</h2>
+    <pre><code>
+replace me
+      </code></pre>
+  </div>
+</section>
+
+
+<footer class="footer">
+  <div class="container">
+    <div class="columns is-centered">
+      <!-- <div class="column is-8"> -->
+        <div class="content">
+          <p>
+            This website is built using the source code provided by the <a href="https://github.com/nerfies/nerfies.github.io">Nerfies</a> project. Special thanks to the Nerfies team for creating this excellent project page template.                      
+          </p>
+    
+        </div>
+      </div>
+    </div>
+  </div>
+</footer>
+
+</body>
+</html>

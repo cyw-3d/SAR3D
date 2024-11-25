@@ -5,7 +5,7 @@
 ¹S-lab, Nanyang Technological University  
 ²Shanghai Artificial Intelligence Laboratory
 
-[Project Page](https://cyw-3d.github.io/SAR3D) | Paper
+[Project Page](https://cyw-3d.github.io/projects/SAR3D) | Paper
 
 ### SAR3D is a framework for **fast 3D generation (<1s)** and **detailed understanding** via **autoregressive modeling**.
 

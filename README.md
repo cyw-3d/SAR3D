@@ -48,8 +48,3 @@ Autoregressive models have demonstrated remarkable success across various fields
   journal={arXiv preprint arXiv:2411.16856},
   year={2024}
 }
-
-
-
-
-

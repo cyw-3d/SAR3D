@@ -18,7 +18,9 @@ SAR3D is a framework for **fast 3D generation (<1s)** and **detailed understandi
 
 
 
-https://github.com/user-attachments/assets/c91c8545-aba6-4975-84e8-0153a4616593
+https://github.com/user-attachments/assets/badac244-f8ee-41c2-8129-b09cf6404b91
+
+
 
 <p align="center">🚀✨🚧 We are working hard on releasing the code... 🔧🛠️💻 Stay tuned! 🚧✨🚀</p>
 

@@ -40,7 +40,14 @@ Autoregressive models have demonstrated remarkable success across various fields
 ![Method_2](./assets/method_generation_and_understanding.jpg)
 
 ## BibTex
-If you find our work useful for your research, please consider citing the paper:
+
+```bibtex
+@article{chen2024sar3d,
+  title={SAR3D: Autoregressive 3D Object Generation and Understanding via Multi-scale 3D VQVAE},
+  author={Chen, Yongwei and Lan, Yushi and Zhou, Shangchen and Wang, Tengfei and Pan, Xingang},
+  journal={arXiv preprint arXiv:2411.16856},
+  year={2024}
+}
 
 
 

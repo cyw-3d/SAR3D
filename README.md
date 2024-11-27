@@ -37,7 +37,7 @@ Autoregressive models have demonstrated remarkable success across various fields
 
 **Overview of 3D Generation and 3D Understanding**. Given a 3D model, our 3D VQVAE encodes it into multi-scale discrete tokens for both 3D generation and understandingin.In (a) **3D Generation**, text or a single image is encoded by *CLIP<sub>T</sub>* or *DINOv2*, and the encoded condition features are integrated into the decoder-only transformer via cross attention. The transformer then causally predicts each scale of the latent triplane. In (b) **3D Understanding**, truncated 3D tokens are first processed with an MLP projector. The large language model receives a multimodal sequence of text and 3D tokens and generates a detailed caption describing the input 3D model.
 
-![Method_2](./assets/method_2.jpg)
+![Method_2](./assets/method_generation_and_understanding.jpg)
 
 ## BibTex
 If you find our work useful for your research, please consider citing the paper:

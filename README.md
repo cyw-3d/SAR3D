@@ -12,6 +12,8 @@ SAR3D: Autoregressive 3D Object Generation and Understanding via Multi-scale 3D 
 ¹S-lab, Nanyang Technological University  
 ²Shanghai Artificial Intelligence Laboratory
 
+**CVPR 2025**
+
 [project page](https://cyw-3d.github.io/projects/SAR3D) | [arXiv](https://arxiv.org/abs/2411.16856)
 
 SAR3D is a framework for **fast 3D generation (<1s)** and **detailed understanding** via **autoregressive modeling**.
@@ -26,6 +28,12 @@ https://github.com/user-attachments/assets/badac244-f8ee-41c2-8129-b09cf6404b91
 
 </div>
 
+TODO:
+- [ ] Inference Code for Generation
+- [ ] Traning Code for Generation
+- [ ] Inference Code for Understanding
+- [ ] Traning Code for Understanding
+      
 ## Abstract
 Autoregressive models have demonstrated remarkable success across various fields, from large language models (LLMs) to large multimodal models (LMMs) and 2D content generation, moving closer to artificial general intelligence (AGI). Despite these advances, applying autoregressive approaches to 3D object generation and understanding remains largely unexplored. This paper introduces Scale AutoRegressive 3D (SAR3D), a novel framework that leverages a multi-scale 3D vector-quantized variational autoencoder (VQVAE) to tokenize 3D objects for efficient autoregressive generation and detailed understanding. By predicting the next scale in a multi-scale latent representation instead of the next single token, SAR3D reduces generation time significantly, achieving fast 3D object generation in just 0.82 seconds on an A6000 GPU. Additionally, given the tokens enriched with hierarchical 3D-aware information, we finetune a pretrained LLM on them, enabling multimodal comprehension of 3D content. Our experiments show that SAR3D surpasses current 3D generation methods in both speed and quality and allows LLMs to interpret and caption 3D models comprehensively.
 
@@ -44,9 +52,9 @@ Autoregressive models have demonstrated remarkable success across various fields
 ## BibTex
 
 ```bibtex
-@article{chen2024sar3d,
-  title={SAR3D: Autoregressive 3D Object Generation and Understanding via Multi-scale 3D VQVAE},
-  author={Chen, Yongwei and Lan, Yushi and Zhou, Shangchen and Wang, Tengfei and Pan, Xingang},
-  journal={arXiv preprint arXiv:2411.16856},
-  year={2024}
+@inproceedings{chen2024sar3d,
+    title={SAR3D: Autoregressive 3D Object Generation and Understanding via Multi-scale 3D VQVAE},
+    author={Chen, Yongwei and Lan, Yushi and Zhou, Shangchen and Wang, Tengfei and Pan, Xingang},
+    booktitle={CVPR},
+    year={2025}
 }
